@@ -59,11 +59,11 @@ public class BGChat {
 
 			Integer timeleft = BGMain.MAX_GAME_RUNNING_TIME
 					- BGMain.GAME_RUNNING_TIME;
-			String is = "are";
-			String minute = "minutes";
+			String is = "esta";
+			String minute = "minutos";
 			if (timeleft <= 1) {
-				is = "minute";
-				minute = "minute";
+				is = "minuto";
+				minute = "minuto";
 			}
 			player.sendMessage(ChatColor.GRAY + " - There " + are + " "
 					+ BGMain.getGamers().length + " " + players + " online.");
