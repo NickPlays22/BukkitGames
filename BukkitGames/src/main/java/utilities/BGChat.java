@@ -60,10 +60,10 @@ public class BGChat {
 			Integer timeleft = BGMain.MAX_GAME_RUNNING_TIME
 					- BGMain.GAME_RUNNING_TIME;
 			String is = "are";
-			String minute = "minutes";
+			String minute = "minutos";
 			if (timeleft <= 1) {
-				is = "minute";
-				minute = "minute";
+				is = "minuto";
+				minute = "minuto";
 			}
 			player.sendMessage(ChatColor.GRAY + " - There " + are + " "
 					+ BGMain.getGamers().length + " " + players + " online.");
@@ -97,10 +97,10 @@ public class BGChat {
 				}
 			}
 			player.sendMessage("");
-			player.sendMessage(ChatColor.AQUA + "Available kits: " + ChatColor.GRAY + "(/kit [KitName])");
+			player.sendMessage(ChatColor.AQUA + "Use: " + ChatColor.GRAY + "(/kit [KitName])");
 			player.sendMessage("");
-			player.sendMessage(ChatColor.GREEN + "Your kits: " + ChatColor.WHITE + yourkits);
-			player.sendMessage(ChatColor.GREEN + "Other kits: " + ChatColor.WHITE + otherkits);
+			player.sendMessage(ChatColor.GREEN + "Seus Kits: " + ChatColor.WHITE + yourkits);
+			player.sendMessage(ChatColor.GREEN + "Outros Kits: " + ChatColor.WHITE + otherkits);
 			player.sendMessage(ChatColor.AQUA + "More kits available at: "
 					+ BGMain.KIT_BUY_WEB);
 			player.sendMessage("");
